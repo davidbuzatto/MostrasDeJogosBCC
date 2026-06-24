@@ -46,5 +46,17 @@
     "nome": "Window Surfer",
     "desenvolvedores": "Eduardo Ferreira de Santana e Rogério Castro Chaves",
     "imagem": "screenshots/8.png"
+  },
+  {
+    "id": 9,
+    "nome": "Inbonha The Hedgehog",
+    "desenvolvedores": "Henrique e Cecília",
+    "imagem": "screenshots/9.png"
+  },
+  {
+    "id": 10,
+    "nome": "AAA",
+    "desenvolvedores": "Thiago e Maria Clara",
+    "imagem": "screenshots/10.png"
   }
 ]
