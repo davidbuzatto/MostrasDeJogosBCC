@@ -25,7 +25,7 @@
   },
   {
     "id": 5,
-    "nome": "Sonik Com K",
+    "nome": "Sonik com K",
     "desenvolvedores": "João Vitor Gregório Rumão e Raissa Figueiredo Machado",
     "imagem": "screenshots/5.png"
   },
@@ -58,5 +58,11 @@
     "nome": "Cave Dash",
     "desenvolvedores": "Maria Clara Lisboa Ribeiro Sousa e Thiago Antonio Oliveira da Silva",
     "imagem": "screenshots/10.png"
+  },
+  {
+    "id": 11,
+    "nome": "Sonic Blue",
+    "desenvolvedores": "Davi Beli Rosa e Rodrigo Costa Garcia",
+    "imagem": "screenshots/11.png"
   }
 ]
