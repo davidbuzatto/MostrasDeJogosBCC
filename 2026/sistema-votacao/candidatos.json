@@ -14,13 +14,13 @@
   {
     "id": 3,
     "nome": "Mr. Guzão",
-    "desenvolvedores": "Filipe Fiorio e Gustavo Mastelaro",
+    "desenvolvedores": "Filipe Roma Fiorio e Gustavo Antonio Mastelaro Nascimento",
     "imagem": "screenshots/3.png"
   },
   {
     "id": 4,
     "nome": "Sonic o Ouriço: Em Busca da Velocidade!",
-    "desenvolvedores": "Fernando Decanal Guirao e Luiz Bridi",
+    "desenvolvedores": "Fernando Decanal Guirao e Luiz Bridi de Lima",
     "imagem": "screenshots/4.png"
   },
   {
@@ -38,7 +38,7 @@
   {
     "id": 7,
     "nome": "Que mario?",
-    "desenvolvedores": "Kevin Zili e Rebeca Laia",
+    "desenvolvedores": "Kevin Domingues Zili e Rebeca Regina de Laia Papa",
     "imagem": "screenshots/7.png"
   },
   {
@@ -50,13 +50,13 @@
   {
     "id": 9,
     "nome": "Inbonha The Hedgehog",
-    "desenvolvedores": "Henrique e Cecília",
+    "desenvolvedores": "Henrique Bissoli Malaman Alonso e Maria Cecília Izidio Hernandes",
     "imagem": "screenshots/9.png"
   },
   {
     "id": 10,
-    "nome": "AAA",
-    "desenvolvedores": "Thiago e Maria Clara",
+    "nome": "Cave Dash",
+    "desenvolvedores": "Maria Clara Lisboa Ribeiro Sousa e Thiago Antonio Oliveira da Silva",
     "imagem": "screenshots/10.png"
   }
 ]
