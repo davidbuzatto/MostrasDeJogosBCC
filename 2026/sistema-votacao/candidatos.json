@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "nome": "Asylum Rush",
+    "desenvolvedores": "Caio Canalli e João Davi de Oliveira Cunha",
+    "imagem": "screenshots/1.png"
+  },
+  {
+    "id": 2,
+    "nome": "Jogo Sonic",
+    "desenvolvedores": "Ana Julia Romera de Carvalho e Leticia Rosa Teles",
+    "imagem": "screenshots/2.png"
+  },
+  {
+    "id": 3,
+    "nome": "Mr. Guzão",
+    "desenvolvedores": "Filipe Fiorio e Gustavo Mastelaro",
+    "imagem": "screenshots/3.png"
+  },
+  {
+    "id": 4,
+    "nome": "Sonic o Ouriço: Em Busca da Velocidade!",
+    "desenvolvedores": "Fernando Decanal Guirao e Luiz Bridi",
+    "imagem": "screenshots/4.png"
+  },
+  {
+    "id": 5,
+    "nome": "Sonic Clone",
+    "desenvolvedores": "João Vitor Gregório Rumão e Raissa Figueiredo Machado",
+    "imagem": "screenshots/5.png"
+  },
+  {
+    "id": 6,
+    "nome": "cPlumber",
+    "desenvolvedores": "Pietro Turci Moraes Martins",
+    "imagem": "screenshots/6.png"
+  },
+  {
+    "id": 7,
+    "nome": "Que mario?",
+    "desenvolvedores": "Kevin Zili e Rebeca Laia",
+    "imagem": "screenshots/7.png"
+  },
+  {
+    "id": 8,
+    "nome": "Window Surfer",
+    "desenvolvedores": "Eduardo Ferreira de Santana e Rogério Castro Chaves",
+    "imagem": "screenshots/8.png"
+  }
+]

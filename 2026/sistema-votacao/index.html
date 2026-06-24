@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sistema de votação da Mostra de Jogos ORI 2026 — IFSP São João da Boa Vista.">
+    <meta name="author" content="Prof. Dr. David Buzatto">
+    <title>Mostra de Jogos ORI 2026 — Votação</title>
+    <link rel="icon" type="image/svg+xml" href="icons/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/icon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/icon-16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/icon-180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="icons/icon-512.png">
+    <meta name="theme-color" content="#fef6e4">
+    <meta property="og:title"       content="Mostra de Jogos ORI 2026">
+    <meta property="og:description" content="Venha jogar, votar e premiar as melhores equipes! 25/06/2026 · Lab. Informática 7, Bloco D · 14h–16h · IFSP São João da Boa Vista">
+    <meta property="og:image"       content="icons/icon-512.png">
+    <meta property="og:type"        content="website">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <!-- ========== TELA DE VOTAÇÃO ========== -->
+    <div id="tela-votacao" class="tela ativa">
+
+      <header class="site-header">
+        <div class="header-inner">
+          <div class="header-tag">ORI · 2026 — Nº 01</div>
+          <h1 class="header-titulo">
+            <span class="titulo-mostra">MOSTRA DE</span>
+            <span class="titulo-jogos">JOGOS</span>
+          </h1>
+          <p class="header-subtitulo">Venha jogar. Vote nos seus <strong>3 favoritos.</strong></p>
+          <p class="header-instrucao">
+            Escolha um jogo para cada posição e clique em <strong>Confirmar Voto</strong>.
+            <button id="btn-ajuda" class="btn-ajuda" aria-label="Como funciona?">?</button>
+          </p>
+        </div>
+      </header>
+
+      <main class="main-votacao">
+        <div id="banner-sucesso" class="banner-sucesso" aria-live="polite"></div>
+        <div id="grade-jogos" class="grade-jogos"></div>
+        <div class="confirmacao-wrap">
+          <div id="resumo-voto" class="resumo-voto"></div>
+          <button id="btn-confirmar" class="btn-confirmar" disabled>Confirmar Voto</button>
+        </div>
+      </main>
+
+      <footer class="site-footer">
+        <span>
+          Iniciativa do <strong>Prof. David Buzatto</strong> ·
+          Organização e Recuperação da Informação ·
+          IFSP — Campus São João da Boa Vista
+        </span>
+        <button id="btn-admin-acesso" class="btn-admin-link" aria-label="Acesso administrativo">⚙</button>
+      </footer>
+
+    </div>
+
+    <!-- ========== TELA ADMIN — LOGIN ========== -->
+    <div id="tela-admin-login" class="tela">
+      <div class="admin-login-box">
+        <h2>Acesso Restrito</h2>
+        <p>Digite a senha para acessar o painel administrativo.</p>
+        <form id="form-login" autocomplete="off">
+          <input
+            id="input-senha"
+            type="password"
+            class="input-senha"
+            placeholder="Senha"
+          >
+          <p id="erro-senha" class="erro-senha" hidden>Senha incorreta.</p>
+          <div class="login-btns">
+            <button type="button" id="btn-cancelar-login" class="btn-secundario">Cancelar</button>
+            <button type="submit" class="btn-confirmar">Entrar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- ========== TELA ADMIN — PAINEL ========== -->
+    <div id="tela-admin-painel" class="tela">
+
+      <header class="admin-header">
+        <h2>Painel Administrativo</h2>
+        <button id="btn-sair-admin" class="btn-secundario">Sair</button>
+      </header>
+
+      <main class="admin-main">
+        <div id="admin-stats" class="admin-stats"></div>
+        <div class="admin-acoes">
+          <button id="btn-resetar" class="btn-perigo">Resetar Votação</button>
+        </div>
+      </main>
+
+    </div>
+
+    <!-- ========== MODAL DE AJUDA ========== -->
+    <div id="modal-ajuda" class="modal-overlay" hidden>
+      <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modal-titulo">
+        <button id="btn-fechar-modal" class="modal-fechar" aria-label="Fechar">×</button>
+        <h3 id="modal-titulo">Como funciona a votação?</h3>
+        <p>Você jogou? Ótimo! Agora vote nos seus <strong>3 jogos favoritos</strong>, em ordem de preferência.</p>
+        <ul class="modal-lista">
+          <li><span class="modal-medalha">🥇</span> <strong>1º lugar</strong> — 10 pontos</li>
+          <li><span class="modal-medalha">🥈</span> <strong>2º lugar</strong> — 5 pontos</li>
+          <li><span class="modal-medalha">🥉</span> <strong>3º lugar</strong> — 2 pontos</li>
+        </ul>
+        <p class="modal-obs">
+          Cada jogo só pode receber uma colocação. O ranking final é calculado
+          pela soma total dos pontos recebidos de todos os votantes.
+        </p>
+        <button id="btn-fechar-modal-2" class="btn-confirmar" style="width: 100%; margin-top: 1rem;">Entendido!</button>
+      </div>
+    </div>
+
+    <script src="app.js" type="module"></script>
+
+  </body>
+
+</html>
